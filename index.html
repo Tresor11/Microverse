@@ -3,11 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1>Hello World, we are software developers!</h1>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1 id="title" >Survey Form
+        </h1>
+        <p class="lead"  id="description">Let us know how we can improve freeCodeCamp        </p>
+          <form action="" id="survey-form">
+            <div class="form-group">
+              <label for="" id="name-label">Name</label>
+              <input type="text" class="form-control" id="name" required placeholder="Please enter your name">
+            </div>
+            <div class="form-group">
+              <label for="" id="email-label">Email</label>
+              <input type="email" class="form-control" id="email" required placeholder="please enter your email">
+            </div>
+            <div class="form-group">
+              <label for="" id="number-label">Age</label>
+              <input type="number" class="form-control" id="number"  min="11" max="11" required placeholder="please enter your number">
+            </div>
+
+            <div class="form-group">
+              <label for="">Which option best describes your current role?</label>
+              <select name="" class="form-control" id="dropdown">
+                <option value="">Student</option>
+                <option value="">Full-time Job</option>
+              </select>
+            </div>
+
+          </form>
+      </div>
+    </main><!-- /.container -->
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
